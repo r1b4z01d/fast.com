@@ -1,5 +1,6 @@
 # fast.com
-Python CLI-tool (without need for a GUI) to measure Internet speed with fast.com
+Python CLI-tool (without need for a GUI) to measure and log Internet speed with fast.com
+This fork adds hourly logging to the example to save a comma separated file with timestamp and speed. 
 
 
 Example usage
