@@ -13,7 +13,7 @@ def job():
 		logFile.write(st +","+str(speed))
 		logFile.close()
 
-schedule.every().minute.do(job)
+schedule.every().hour.do(job)
 
 while True:
     schedule.run_pending()
